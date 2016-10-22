@@ -1,9 +1,0 @@
-源文件应该是 https://github.com/pizzamx/jpgramma，对应本地硬盘是
-D:\___dev___\GuideToJapaneseParser\translation
-所以要有修改要先来这里 git add -A、commit、push
-
-然后我们来到本地硬盘 
-D:\___dev___\wokanxing.info\pizzamx.github.io\jpgramma
-这里对应仓库 https://github.com/pizzamx/jpgramma/tree/fc7e6bca5ce4f3dced383bae6a00c357553810e6
-也就是架设在 pizzamx.github.io 的静态文件目录 jpgramma
-所以修改了源文件之后要来这里同步一下，才能在网站上反映出来，操作步骤：
