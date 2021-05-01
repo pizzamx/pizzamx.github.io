@@ -8,4 +8,10 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ github.event.client_payload.ref }}
+      - run: |
+        cd jpgramma
+        git pull
+        cd ..
+        git add -A
+        git commit -m "sync with ${{ github.event.client_payload.ref }}"
+        git push
