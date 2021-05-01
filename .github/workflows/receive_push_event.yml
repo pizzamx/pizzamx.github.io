@@ -11,6 +11,7 @@ jobs:
     - name: run-cmd
       working-directory: ./jpgramma
       run: |
+        pwd
         git pull
         cd ..
         git add -A
