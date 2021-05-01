@@ -10,4 +10,4 @@ jobs:
     steps:
     - name: run-cmd
       run: |
-        ls
+        ls ..
