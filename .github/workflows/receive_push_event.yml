@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: run-cmd
-      working-directory: ./jpgramma
+      working-directory: jpgramma
       run: |
         pwd
         git pull
