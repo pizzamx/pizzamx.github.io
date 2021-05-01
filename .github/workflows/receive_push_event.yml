@@ -8,7 +8,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name run-cmd
+      - name: run-cmd
       run: |
         cd jpgramma
         git pull
