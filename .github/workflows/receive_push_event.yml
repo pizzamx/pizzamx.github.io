@@ -12,8 +12,3 @@ jobs:
       working-directory: jpgramma
       run: |
         pwd
-        git pull
-        cd ..
-        git add -A
-        git commit -m "sync with ${{ github.event.client_payload.ref }}"
-        git push
