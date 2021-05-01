@@ -1,0 +1,11 @@
+name: Receive Push Event
+
+on:
+  repository_dispatch:
+    types: [my-push-event]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{ github.event.client_payload.ref }}
