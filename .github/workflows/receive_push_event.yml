@@ -11,3 +11,4 @@ jobs:
     - name: run-cmd
       run: |
         pwd
+        ls
